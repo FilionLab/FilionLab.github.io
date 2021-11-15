@@ -1,5 +1,5 @@
 ---
-name: Guillaume Filion
+name: Guillaume J. Filion
 position: pi
 avatar: guillaume_filion.jpg
 twitter: thegrandlocus
