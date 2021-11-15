@@ -3,8 +3,11 @@ title: Publication
 permalink: /publication/
 ---
 
+* Co-corresponding author.  
+
+
 _Chromosome compartments on the inactive X guide TAD formation independently of transcription during X-reactivation_<br>
-Moritz Bauer, Enrique Vidal, Eduard Zorita, Nil Üresin, Stefan F Pinter, Guillaume J Filion, Bernhard Payer<br>
+Moritz Bauer, Enrique Vidal, Eduard Zorita, Nil Üresin, Stefan F Pinter, Guillaume J Filion\*, Bernhard Payer<br>
 Nature Communications, 2021 ([Article](https://www.nature.com/articles/s41467-021-23610-1.pdf?origin=ppub))
 
 _The chromatin landscape at the HIV-1 provirus integration site determines viral expression_<br>
@@ -20,7 +23,7 @@ Eduard Valera Zorita, Ruggero Cortini, Guillaume J Filion<br>
 BioRxiv, 2020 ([Article](https://scholar.archive.org/work/6ggzju5jfjaflgnez2fi7mgesq/access/wayback/https://www.biorxiv.org/content/biorxiv/early/2020/02/11/2020.02.10.942599.full.pdf))
 
 _Spatially clustered loci with multiple enhancers are frequent targets of HIV-1 integration_<br>
-Bojana Lucic, Heng-Chang Chen, Maja Kuzman, Eduard Zorita, Julia Wegner, Vera Minneker, Wei Wang, Raffaele Fronza, Stefanie Laufs, Manfred Schmidt, Ralph Stadhouders, Vassilis Roukos, Kristian Vlahovicek, Guillaume J Filion, Marina Lusic<br>
+Bojana Lucic, Heng-Chang Chen, Maja Kuzman, Eduard Zorita, Julia Wegner, Vera Minneker, Wei Wang, Raffaele Fronza, Stefanie Laufs, Manfred Schmidt, Ralph Stadhouders, Vassilis Roukos, Kristian Vlahovicek, Guillaume J Filion\*, Marina Lusic<br>
 Nature communications, 2019 ([Article](https://www.nature.com/articles/s41467-019-12046-3.pdf?origin=ppub))
 
 _Transcription factors and 3D genome conformation in cell-fate decisions_<br>
@@ -118,10 +121,6 @@ Nucleus, 2012 ([Article](https://www.tandfonline.com/doi/full/10.4161/nucl.18825
 _Les cinq couleurs de la chromatine de drosophile_<br>
 Guillaume Filion<br>
 médecine/sciences, 2011 ([Article](https://www.medecinesciences.org/en/articles/medsci/full_html/2011/03/medsci2011273p246/medsci2011273p246.html))
-
-_The five colours of Drosophila chromatin_<br>
-Guillaume Filion<br>
-Medecine sciences: M/S, 2011 ([Article](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zaOLiJEAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=zaOLiJEAAAAJ:4DMP91E08xMC))
 
 _Bayesian network analysis of targeting interactions in chromatin_<br>
 Bas Van Steensel, Ulrich Braunschweig, Guillaume J Filion, Menzies Chen, Joke G van Bemmel, Trey Ideker<br>
