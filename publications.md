@@ -3,7 +3,7 @@ title: Publication
 permalink: /publication/
 ---
 
-* Co-corresponding author.  
+\* Co-corresponding author.  
 
 
 _Chromosome compartments on the inactive X guide TAD formation independently of transcription during X-reactivation_<br>
