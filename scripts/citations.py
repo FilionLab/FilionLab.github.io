@@ -1,9 +1,16 @@
-"""
-Quickly hacked-together script for pulling Konrad's citations from Google
-Scholar, and formatting them according to the Markdown shown on http://kordinglab.com/publication/
+#!/usr/bin/env python3
+# -*- coding:utf-8 -*-
 
-requests-html used to avoid captcha/violating Google ToS.
-"""
+# GF: thanks for doing the heavy lifting! I just
+# have to replace Konrad's ID by my own.
+#
+# """
+# Quickly hacked-together script for pulling Konrad's citations from Google
+# Scholar, and formatting them according to the Markdown shown on http://kordinglab.com/publication/
+#
+# requests-html used to avoid captcha/violating Google ToS.
+# """
+
 from requests_html import HTMLSession
 from datetime import datetime
 
@@ -22,13 +29,9 @@ def get_citation_links(session, profile_url):
 
     """
     r = session.get(profile_url)
-
     links = r.html.absolute_links
-
     assert len(links) > 0, "No paper cites, did we hit a captcha?"
-
     paper_links = [link for link in links if "view_citation" in link]
-
     return paper_links
 
 
@@ -39,6 +42,7 @@ JOURNAL = "Journal"
 SOURCE = "Source"
 TITLE = "Scholar articles"
 URL = 'url'
+
 
 def get_paper_data(session, paper_url):
     """
@@ -118,9 +122,9 @@ def print_markdown(paper_dict):
         ))
 
 if __name__ == "__main__":
-    konrad_profile_url = "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=MiFqJGcAAAAJ&sortby=pubdate"
+    profile_url = "https://scholar.google.com/citations?view_op=list_works&hl=en&user=zaOLiJEAAAAJ&sortby=pubdate&pagesize=200"
     session = HTMLSession()
-    citation_links = get_citation_links(session, konrad_profile_url)
+    citation_links = get_citation_links(session, profile_url)
 
     paper_data = [get_paper_data(session, url) for url in citation_links]
 
