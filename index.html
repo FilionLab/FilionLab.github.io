@@ -22,7 +22,7 @@ layout: default
           <span style="display: block; margin-bottom: 1em"></span>
           <div class="news">
               {% capture now %}{{'now' | date: '%s' | minus: 15552000 %}}{% endcapture %}
-              <ul style="list-style-position:outside;padding:20px" >
+              <ul style="list-style-position:outside;padding:2px" >
                 {% for new in site.data.news %}
                   {% capture date %}{{new.date | date: '%s' | plus: 0 %}}{% endcapture %}
                   {% if date > now %}
